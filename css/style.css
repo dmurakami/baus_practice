@@ -1,0 +1,253 @@
+@charset "UTF-8";
+body {
+  color: #111111;
+  font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif; }
+
+.top {
+  background-image: url("../img/movie_pc.png");
+  background-size: cover;
+  width: 100%; }
+  .top .top_title {
+    margin-bottom: 150px;
+    text-align: center; }
+    .top .top_title img {
+      margin: 245px auto 45px auto;
+      width: 600px; }
+    .top .top_title p {
+      font-size: 20px;
+      font-weight: bold; }
+  .top .playmovie {
+    margin-bottom: 35px; }
+    .top .playmovie .playmovie_button {
+      background-color: #111;
+      height: 60px;
+      text-align: center;
+      margin: 0 auto;
+      width: 270px; }
+      .top .playmovie .playmovie_button a {
+        color: #fff;
+        display: block;
+        font-family: 'Futura';
+        font-weight: 600;
+        line-height: 60px;
+        text-decoration: none; }
+  .top .scroll {
+    padding-bottom: 20px; }
+    .top .scroll .scroll_button {
+      text-align: center; }
+      .top .scroll .scroll_button img {
+        width: 50px; }
+
+.message {
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: 0 auto 70px;
+  padding: 0 calc((100% - 1200px) / 2); }
+  .message .message_leftside {
+    margin: 80px 0 0 0; }
+    .message .message_leftside .message_leftside_main {
+      width: 348px;
+      margin-bottom: 30px; }
+    .message .message_leftside .message_leftside_caption {
+      font-size: 13px;
+      font-weight: bold;
+      line-height: 2; }
+  .message .message_rightside {
+    margin: 80px 0 0 0;
+    width: 580px; }
+    .message .message_rightside .message_rightside_main {
+      font-size: 24px;
+      font-weight: bold;
+      line-height: 2;
+      margin-bottom: 20px; }
+    .message .message_rightside .message_rightside_caption {
+      font-size: 15px;
+      line-height: 1.86;
+      margin-bottom: 15px; }
+
+.registration {
+  background-color: #111;
+  text-align: center; }
+  .registration .registration_area {
+    padding-top: 70px; }
+    .registration .registration_area .registration_area_open {
+      margin-bottom: 30px; }
+      .registration .registration_area .registration_area_open .registration_area_open_p {
+        color: #fff;
+        font-family: 'Futura';
+        font-size: 40px;
+        font-weight: 500; }
+        .registration .registration_area .registration_area_open .registration_area_open_p span {
+          font-size: 24px; }
+    .registration .registration_area .registration_area_caption {
+      margin-bottom: 30px; }
+      .registration .registration_area .registration_area_caption .registration_area_caption_p {
+        color: #fff;
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 2; }
+    .registration .registration_area .registration_area_input {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      padding-bottom: 80px; }
+      .registration .registration_area .registration_area_input input {
+        padding-left: 30px;
+        font-size: 16px;
+        height: 60px;
+        width: 900px; }
+      .registration .registration_area .registration_area_input .registration_area_input_button {
+        background-color: #b34f36;
+        text-align: center;
+        position: relative;
+        width: 270px; }
+        .registration .registration_area .registration_area_input .registration_area_input_button a {
+          color: #fff;
+          display: block;
+          font-weight: bold;
+          text-decoration: none;
+          line-height: 60px; }
+        .registration .registration_area .registration_area_input .registration_area_input_button img {
+          position: absolute;
+          width: 20px;
+          top: 23px;
+          right: 20px; }
+
+.wrapper {
+  background-color: #f4f4f3; }
+
+main {
+  margin: 0 auto;
+  width: 1200px; }
+
+.section_title {
+  margin: 0 0 40px 0;
+  padding: 30px 0 0 0;
+  width: 100%; }
+  .section_title p {
+    font-size: 15px;
+    line-height: 1.86; }
+  .section_title .section_title_h2-img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin: 0 0 60px 0; }
+    .section_title .section_title_h2-img h2 {
+      font-family: 'Futura';
+      font-size: 40px;
+      font-weight: 600; }
+    .section_title .section_title_h2-img p {
+      -ms-flex-item-align: end;
+      align-self: flex-end;
+      color: #ac873d;
+      font-size: 14px;
+      text-decoration: none; }
+
+.platform_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 40px; }
+  .platform_container .usertype {
+    background-color: #fff;
+    text-align: center;
+    width: 270px; }
+    .platform_container .usertype .usertype_title {
+      color: #ac873d;
+      font-size: 14px;
+      font-weight: bold;
+      margin: 100px 0 40px 0; }
+    .platform_container .usertype .usertype_image {
+      margin-bottom: 50px; }
+      .platform_container .usertype .usertype_image img {
+        margin-bottom: 10px;
+        width: 140px; }
+      .platform_container .usertype .usertype_image p {
+        color: #929292;
+        font-size: 11px;
+        font-weight: bold; }
+  .platform_container .mrm {
+    width: 890px; }
+    .platform_container .mrm .box {
+      background-color: #fff;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      height: auto;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      margin-bottom: 1px;
+      padding: 40px; }
+      .platform_container .mrm .box .box_leftside .box_leftside_top {
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between; }
+        .platform_container .mrm .box .box_leftside .box_leftside_top h3 {
+          font-family: 'Futura';
+          font-size: 20px;
+          font-weight: 600; }
+        .platform_container .mrm .box .box_leftside .box_leftside_top .box_leftside_top_image {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center; }
+          .platform_container .mrm .box .box_leftside .box_leftside_top .box_leftside_top_image .box_leftside_top_image_p {
+            font-size: 11px;
+            font-weight: bold;
+            margin-right: 12px; }
+          .platform_container .mrm .box .box_leftside .box_leftside_top .box_leftside_top_image .box_leftside_top_image_img {
+            width: 127px; }
+      .platform_container .mrm .box .box_leftside .box_leftside_caption {
+        background-color: #ededed;
+        height: 40px;
+        margin-top: 16px;
+        position: relative;
+        width: 383px; }
+        .platform_container .mrm .box .box_leftside .box_leftside_caption p {
+          margin-left: 18px;
+          font-size: 12px;
+          line-height: 40px; }
+        .platform_container .mrm .box .box_leftside .box_leftside_caption:before {
+          content: "";
+          position: absolute;
+          top: -21px;
+          left: 18px;
+          width: 0px;
+          height: 0px;
+          margin: auto;
+          border-style: solid;
+          border-color: transparent transparent #ededed transparent;
+          border-width: 11px;
+          z-index: 50; }
+      .platform_container .mrm .box .box_rightside {
+        font-size: 14px;
+        width: 410px; }
+        .platform_container .mrm .box .box_rightside .box_rightside_title {
+          color: #ac873d;
+          font-weight: bold;
+          margin-bottom: 20px; }
+        .platform_container .mrm .box .box_rightside .box_rightside_explain {
+          line-height: 1.71; }
